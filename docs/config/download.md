@@ -94,18 +94,19 @@
 
 ```md
 ├── A
-│ └── 安达与岛村
-│ └── S01
-│ ├── 安达与岛村 S01E01.mp4
-│ ├── 安达与岛村 S01E02.mp4
-│ ├── 安达与岛村 S01E03.mp4
-│ └── 安达与岛村 S01E04.mp4
+│   └── 安达与岛村
+│       └── S01
+│           ├── 安达与岛村 S01E01.mp4
+│           ├── 安达与岛村 S01E02.mp4
+│           ├── 安达与岛村 S01E03.mp4
+│           └── 安达与岛村 S01E04.mp4
 ├── B
-│ └── BanG Dream! It's MyGO!!!!!
-│ └── S01
-│ ├── BanG Dream! It's MyGO!!!!! S01E01.mp4
-│ ├── BanG Dream! It's MyGO!!!!! S01E02.mp4
-│ ├── BanG Dream! It's MyGO!!!!! S01E03.mp4
+│   └── BanG Dream! It's MyGO!!!!!
+│       └── S01
+│           ├── BanG Dream! It's MyGO!!!!! S01E01.mp4
+│           ├── BanG Dream! It's MyGO!!!!! S01E02.mp4
+│           ├── BanG Dream! It's MyGO!!!!! S01E03.mp4
+
 ```
 
 ## 季度
