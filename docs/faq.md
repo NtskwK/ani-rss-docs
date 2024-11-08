@@ -17,7 +17,7 @@ ANI-RSS 只负责订阅和下载, 不负责管理番剧的功能
 chmod -R 777 /downloads
 ```
 ```md
-如果还未解决请自行查看 qbittorrent 日志进行排查
+如果还未解决请自行查看 qBittorrent 日志进行排查
 ```
 
 ## Windows 端口被占用
