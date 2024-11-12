@@ -15,17 +15,17 @@
 由于受 API 限制，`ani-rss`的支持情况如下
 
 <div style="overflow-x: auto;">
-<div style="width: 700px;">
+<div style="width: 900px;">
 
-| 名称           | 自动下载 | 下载时重命名 | 下载时复杂解构重命名 | 下载完成后重命名 |
-|--------------|------|--------|------------|----------|
-| qBittorrent  | ✅    | ✅      | ✅          | ✅        |
-| Transmission | ✅    | ✅      | ❌          | ✅        |
-| Aria2        | ✅    | ❌      | ❌          | ✅        |
+| 名称           | 自动下载 | 下载时重命名 | 下载时复杂解构重命名 | 下载完成后重命名 | 做种时修改下载位置 | 下载完成通知 |
+|--------------|------|--------|------------|----------|-----------|--------|
+| qBittorrent  | ✅    | ✅      | ✅          | ✅        | ✅         | ✅      |
+| Transmission | ✅    | ✅      | ❌          | ✅        | ✅         | ✅      |
+| Aria2        | ✅    | ❌      | ❌          | ✅        | ❌         | ❌      |
 
 </div>
 </div>
- 
+
 *（强烈推荐使用 **qBittorrent**）*
 
 ::: details qBittorrent设置
@@ -34,7 +34,9 @@
 
 ![qBittorrent设置](/image/qBittorrent_settings.png)
 
-2. 在浏览器中打开 `http://localhost:8989`（注意将端口号改为与设置qBittorrent中一致）。不出意外的话应该能进入WebUI，登陆成功后应该能见到如下页面，说明`qBittorrent`端设置无误。（如果无法打开页面，请重新检查`qBittorrent`的设置）
+2. 在浏览器中打开 `http://localhost:8989`
+   （注意将端口号改为与设置qBittorrent中一致）。不出意外的话应该能进入WebUI，登陆成功后应该能见到如下页面，说明`qBittorrent`
+   端设置无误。（如果无法打开页面，请重新检查`qBittorrent`的设置）
 
 ![qBittorrent页面](/image/qBittorrent_WebUI.png)
 
@@ -94,18 +96,18 @@
 
 ```md
 ├── A
-│   └── 安达与岛村
-│       └── S01
-│           ├── 安达与岛村 S01E01.mp4
-│           ├── 安达与岛村 S01E02.mp4
-│           ├── 安达与岛村 S01E03.mp4
-│           └── 安达与岛村 S01E04.mp4
+│ └── 安达与岛村
+│ └── S01
+│ ├── 安达与岛村 S01E01.mp4
+│ ├── 安达与岛村 S01E02.mp4
+│ ├── 安达与岛村 S01E03.mp4
+│ └── 安达与岛村 S01E04.mp4
 ├── B
-│   └── BanG Dream! It's MyGO!!!!!
-│       └── S01
-│           ├── BanG Dream! It's MyGO!!!!! S01E01.mp4
-│           ├── BanG Dream! It's MyGO!!!!! S01E02.mp4
-│           ├── BanG Dream! It's MyGO!!!!! S01E03.mp4
+│ └── BanG Dream! It's MyGO!!!!!
+│ └── S01
+│ ├── BanG Dream! It's MyGO!!!!! S01E01.mp4
+│ ├── BanG Dream! It's MyGO!!!!! S01E02.mp4
+│ ├── BanG Dream! It's MyGO!!!!! S01E03.mp4
 
 ```
 
