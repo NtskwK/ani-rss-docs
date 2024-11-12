@@ -3,7 +3,7 @@ layout: home
 ---
 
 <div align="center">
-<img alt="mikan-pic.png" height="80" width="80" src="./image/mikan-pic.png"/>
+<img alt="mikan-pic.png" height="80" width="80" src="./image/icon.svg"/>
 <p align="center" style="font-size: 2em;font-weight: 600;line-height: 1.25;margin-top: 0;word-wrap: break-word;">
 ANI-RSS
 </p>

@@ -7,7 +7,7 @@ export default defineConfig({
     description: "ANI-RSS",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        logo: '/mikan-pic.png',
+        logo: '/icon.svg',
         nav: [
             {text: '首页', link: '/'},
             {text: '快速开始', link: '/start'},
