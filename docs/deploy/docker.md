@@ -21,7 +21,7 @@
 | TZ     | 时区       | Asia/Shanghai |
 
 ::: warning
-如果需要开启 文件已下载自动跳过 功能 请确保 qBittorrent 与本程序 docker 映射挂载路径一致
+如果需要开启 文件已下载自动跳过 功能 请确保 qBittorrent、ani-rss 的 docker 映射挂载路径一致
 :::
 
 ## 视频教程
