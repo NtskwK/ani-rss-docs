@@ -148,3 +148,19 @@ RSS更新后添加下载任务时如果出现异常则会发送 [通知](/config
 ### qb保存路径
 
 开启后将使用qBittorrent的保存路径配置 (下载路径不受影响)
+
+## Alist
+
+自动将下载完成的文件上传至alist
+
+### AlistHost
+
+alist的http地址
+
+### AlistToken
+
+令牌, 可在 `alist网页 -> 管理 -> 设置 -> 其他 -> 令牌` 找到
+
+### AlistPath
+
+上传位置
