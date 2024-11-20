@@ -126,7 +126,7 @@ services:
       - WEBUIPORT=8080
       - TZ=Asia/Shanghai
     volumes:
-      - /volume1/docker/qb:/config
+      - /volume1/docker/qbittorrent/config:/config
       - /volume2/downloads:/downloads
       - /volume2/Media:/Media #番剧挂载路径两侧须一致
     restart: always
@@ -142,7 +142,7 @@ services:
       - CONFIG=/config
       - TZ=Asia/Shanghai
     volumes:
-      - /volume1/docker/ani-rss:/config
+      - /volume1/docker/ani-rss/config:/config
       - /volume2/Media:/Media #番剧挂载路径两侧须一致
     restart: always
     networks:
