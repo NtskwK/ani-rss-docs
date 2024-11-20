@@ -38,7 +38,8 @@ wushuo894/ani-rss
 qbittorrent:
 
 ```bash
-docker run -d --name qbittorrent \
+docker run -d \
+--name qbittorrent \
 -v /volume1/docker/qbittorrent/config:/config \
 -v /volume2/downloads:/downloads \
 -v /volume2/Media:/Media \
