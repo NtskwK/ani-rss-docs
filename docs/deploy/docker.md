@@ -23,10 +23,14 @@ docker镜像加速监控：[https://status.1panel.top/status/docker](https://sta
 | TZ     | 时区       | Asia/Shanghai |
 
 ::: warning
-如果需要开启 文件已下载自动跳过 功能 请确保 qBittorrent、ani-rss 的 docker 映射挂载路径一致
+如果需要开启 **文件已下载自动跳过** 功能, 请确保 **下载工具**、**ani-rss** 的 docker 映射挂载路径 **保持一致**
+
+你也可以参考 [附带qBittorrent的Docker Compose 部署](/deploy/docker#all-docker-compose)
+
+或者观看 [视频教程](/deploy/docker#video)
 :::
 
-## 视频教程
+## 视频教程 {id=video}
 
 [阿里云盘](https://www.alipan.com/s/eqt2XLZJThu)
 
@@ -43,7 +47,7 @@ allowfullscreen>
 </iframe>
 </div>
 
-## Docker 部署
+## Docker 部署 {id=docker}
 
 ```bash
 docker run -d \
@@ -58,7 +62,7 @@ docker run -d \
 wushuo894/ani-rss
 ```
 
-## Docker Compose 部署
+## Docker Compose 部署 {id=docker-compose}
 
 创建docker-compose.yml文件，内容如下
 
@@ -90,7 +94,7 @@ docker compose up -d
 如需对Docker内的`ani-rss`设置本机跳过身份验证，请留意登录日志内的IP信息。
 :::
 
-## 附带qBittorrent的Docker Compose 部署
+## 附带qBittorrent的Docker Compose 部署 {id=all-docker-compose}
 
 ```yaml
 version: "3"

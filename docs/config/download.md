@@ -49,7 +49,7 @@
 :::
 
 ::: warning
-**使用 Aria2 时，必须让 ani-rss 与 Aria2 路径保持一致才能自动重命名 详见** [docker映射挂载](#docker映射挂载)
+**使用 Aria2 时，必须让 ani-rss 与 Aria2 路径保持一致才能自动重命名 详见** [docker映射挂载](/config/basic#docker-mount)
 :::
 
 不支持下载时重命名会导致:
