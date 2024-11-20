@@ -14,54 +14,6 @@ RSS间隔, 单位 分钟
 
 ::: warning
 此选项 **必须启用自动重命名**。确保 **下载工具**、**ani-rss** 的 docker 映射挂载路径 **保持一致**
-:::
-
-#### docker映射挂载 {id=docker-mount}
-
-如:
-
-ani-rss:
-
-```bash
-docker run -d \
---name ani-rss \
--v /volume1/docker/ani-rss/config:/config \
--v /volume2/Media:/Media \
--p 7789:7789 \
--e PORT="7789" \
--e CONFIG="/config" \
--e TZ=Asia/Shanghai \
---restart always \
-wushuo894/ani-rss
-```
-
-qbittorrent:
-
-```bash
-docker run -d \
---name qbittorrent \
--v /volume1/docker/qbittorrent/config:/config \
--v /volume2/downloads:/downloads \
--v /volume2/Media:/Media \
--p 8080:8080 \
--p 6881:6881 \
--e TZ=Asia/Shanghai \
---restart always \
-linuxserver/qbittorrent
-```
-
-其中 ani-rss 设置中的 **保存位置** 位于 `/Media` 下
-
-两者 `/Media` 挂载路径一致 `-v /volume2/Media/:/Media`
-
-截图示例：
-
-![Xnip2024-11-05_06-13-47.png](/image/Xnip2024-11-05_06-13-47.png)
-
-![Xnip2024-11-05_06-13-22.png](/image/Xnip2024-11-05_06-13-22.png)
-
-::: warning
-确保 **下载工具**、**ani-rss** 的 docker 映射挂载路径 **保持一致**
 
 你也可以参考 [附带qBittorrent的Docker Compose 部署](/deploy/docker#all-docker-compose)
 

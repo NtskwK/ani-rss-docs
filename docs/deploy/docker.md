@@ -62,6 +62,22 @@ docker run -d \
 wushuo894/ani-rss
 ```
 
+::: details qbittorrent
+
+```bash
+docker run -d \
+--name qbittorrent \
+-v /volume1/docker/qbittorrent/config:/config \
+-v /volume2/downloads:/downloads \
+-v /volume2/Media:/Media \
+-p 8080:8080 \
+-p 6881:6881 \
+-e TZ=Asia/Shanghai \
+--restart always \
+linuxserver/qbittorrent
+```
+:::
+
 ## Docker Compose 部署 {id=docker-compose}
 
 创建docker-compose.yml文件，内容如下
