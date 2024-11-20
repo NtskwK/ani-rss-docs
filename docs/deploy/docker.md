@@ -62,7 +62,7 @@ docker run -d \
 wushuo894/ani-rss
 ```
 
-::: details qbittorrent
+::: details qBittorrent
 
 ```bash
 docker run -d \
